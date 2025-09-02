@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Linksy</title>
+</head>
+
+<body class="bg-black text-white font-sans">
+  <div class="max-w-7xl mx-auto px-4">
+    <!-- Header -->
+    <header
+      class="fixed top-0 left-0 w-full bg-black z-50 p-6 w-full flex justify-between items-center border-b border-gray-800">
+      <h1 class="text-3xl font-extrabold sm:text-left text-blue-500">Linksy</h1>
+      <nav class="hidden sm:flex sm:items-center space-x-6">
+        <a href="#hero" class="hover:text-white transition">Home</a>
+        <a href="#how-it-works" class="hover:text-white transition">How It Works</a>
+        <a href="#feedback" class="hover:text-white transition">Feedbacks</a>
+        <a href="" class="p-2 bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition">Get Started Free</a>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main id="hero" class="border-b border-slate-900 flex flex-col items-center text-center py-20">
+      <h1 class="pt-16 text-4xl md:text-6xl font-extrabold mb-6">
+        A tool that helps to share your all links from one place through QR.
+      </h1>
+      <p class="text-gray-400 text-lg md:text-xl mb-10 max-w-2xl">
+        Join thousands of creators, entrepreneurs, and influencers sharing all their links, socials, and content in a
+        single elegant page. Build your online presence with <span class="text-white">Linksy</span>.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 mb-6">
+        <button class="px-8 py-3 bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition">
+          Get Started Free
+        </button>
+        <button class="px-8 py-3 border border-gray-500 rounded-lg font-semibold hover:border-white transition">
+          Login
+        </button>
+      </div>
+
+      <p class="text-gray-300 text-center">
+        No coding required • Customizable design • Share anywhere with a single QR link
+      </p>
+    </main>
+    <!-- Feedback Section -->
+    <section id="feedback" class="py-20 bg-gray-900 text-white rounded-md">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12">What Our Users Say</h2>
+
+        <div id="feedback-list" class="grid md:grid-cols-3 gap-8">
+          <!-- Feedback Card 1 -->
+        </div>
+      </div>
+    </section>
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20 flex flex-col justify-center items-center space-y-6">
+      <h1 class="text-3xl font-bold text-white">How It Works</h1>
+      <p class="text-gray-300">Watch me guide you through how to use it step-by-step</p>
+      <div class="w-full max-w-3xl aspect-video rounded overflow-hidden shadow-lg border border-gray-900">
+        <iframe class="w-full h-full rounded" src="https://www.youtube.com/embed/6eNE1-M12oI" title="YouTube video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="pb-20 text-sm text-center text-gray-500">
+      &copy; <span id="year"></span> Linksy. All rights reserved. | Linksy created by Emran Khan
+    </footer>
+
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
