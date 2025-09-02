@@ -1,18 +1,18 @@
 const feedbacks = [
     {
-        name: "Sarah K.",
+        name: "Sinthia T.",
         message: "Linksy made it so easy to organize all my social links in one place. My followers love it!",
         rating: 5
     },
     {
-        name: "John D.",
+        name: "Sumon D.",
         message: "I was able to create a professional page in minutes without any coding. Highly recommend!",
         rating: 4
     },
     {
-        name: "Priya M.",
+        name: "Adam M.",
         message: "The QR sharing feature is amazing. My clients love scanning and instantly accessing all my links.",
-        rating: 3
+        rating: 4
     },
 ]
 
