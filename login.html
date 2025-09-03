@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Login - Linksy</title>
+</head>
+
+<body class="bg-gray-50 font-sans">
+  <div class="flex flex-col md:flex-row min-h-screen">
+
+    <!-- Left Side: Form -->
+    <main class="flex w-full md:w-1/2 items-center justify-center p-8">
+      <div class="w-full max-w-md space-y-6">
+        <!-- Header -->
+        <header class="text-center">
+          <h1 class="text-3xl font-extrabold mb-1 text-gray-900">Welcome back</h1>
+          <p class="text-gray-600">Log in to your Linksy</p>
+        </header>
+
+        <!-- Email Form -->
+        <form class="space-y-4">
+          <input type="email" placeholder="Email" required
+            class="w-full px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <button type="submit"
+            class="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-slate-700 transition">Continue</button>
+        </form>
+
+        <!-- Divider -->
+        <div class="flex items-center justify-center space-x-2">
+          <span class="border-t border-gray-300 w-16"></span>
+          <span class="text-gray-400 text-sm">OR</span>
+          <span class="border-t border-gray-300 w-16"></span>
+        </div>
+
+        <!-- Social Buttons -->
+        <div class="flex flex-col gap-3">
+          <button
+            class="w-full flex items-center justify-center gap-2 bg-white text-gray-900 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+            <img src="https://img.icons8.com/color/24/google-logo.png" alt="Google" /> Sign up with Google
+          </button>
+          <button
+            class="w-full flex items-center justify-center gap-2 bg-white text-gray-900 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+            <img src="https://img.icons8.com/ios-filled/24/mac-os.png" alt="Apple" /> Sign up with Apple
+          </button>
+        </div>
+
+        <!-- Reset / Forget -->
+        <div class="text-center text-blue-700 text-sm font-semibold">
+          <a href="">Forgot password?</a>
+          <a href="">Forgot username?</a>
+        </div>
+
+        <!-- Login Link -->
+        <p class="text-gray-600 text-center">
+          Don't have an account? <a href="./getStarted.html" class="text-blue-500 font-semibold hover:underline">Sign
+            up</a>
+        </p>
+      </div>
+    </main>
+
+    <!-- Right Side: Desktop Hero -->
+    <aside class="hidden md:flex w-1/2 bg-gradient-to-br from-slate-800 to-slate-900 items-center justify-center p-12">
+      <div class="text-center px-4">
+        <h2 class="text-5xl font-extrabold mb-4 text-white">Welcome back</h2>
+        <p class="text-white text-xl">
+          Share all your links from one place. Build your online presence effortlessly.
+        </p>
+      </div>
+    </aside>
+
+  </div>
+
+</body>
+
+</html>

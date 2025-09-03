@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Get Started - Linksy</title>
+</head>
+
+<body class="bg-gray-50 font-sans">
+
+  <div class="flex flex-col md:flex-row min-h-screen">
+
+    <!-- Left Side: Form -->
+    <main class="flex w-full md:w-1/2 items-center justify-center p-8">
+      <div class="w-full max-w-md space-y-6">
+        <!-- Header -->
+        <header class="text-center">
+          <a href="index.html" class="text font-bold mb-4 text-gray-500 inline-block">What is <span class="text-black">Linksy?</span> <span class="border-b-2">Click here!</span></a>
+          <h1 class="text-3xl font-extrabold mb-1 text-gray-900">Join Linksy</h1>
+          <p class="text-gray-600">Sign up for free!</p>
+        </header>
+
+        <!-- Email Form -->
+        <form id="get-started-form" class="space-y-4">
+          <input type="email" placeholder="Email" required
+            class="w-full px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <button type="submit"
+            class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Continue</button>
+        </form>
+
+        <!-- Legal Text -->
+        <p class="text-gray-500 text-xs text-center">
+          By clicking Continue, you agree to Linksy's <a href="#" class="text-blue-500 hover:underline">privacy notice</a>, <a
+            href="#" class="text-blue-500 hover:underline">T&Cs</a> and to receive offers, news and updates.
+        </p>
+
+        <!-- Divider -->
+        <div class="flex items-center justify-center space-x-2">
+          <span class="border-t border-gray-300 w-16"></span>
+          <span class="text-gray-400 text-sm">OR</span>
+          <span class="border-t border-gray-300 w-16"></span>
+        </div>
+
+        <!-- Social Buttons -->
+        <div class="flex flex-col gap-3">
+          <button
+            class="w-full flex items-center justify-center gap-2 bg-white text-gray-900 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+            <img src="https://img.icons8.com/color/24/google-logo.png" alt="Google" /> Sign up with Google
+          </button>
+          <button
+            class="w-full flex items-center justify-center gap-2 bg-white text-gray-900 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+            <img src="https://img.icons8.com/ios-filled/24/mac-os.png" alt="Apple" /> Sign up with Apple
+          </button>
+        </div>
+
+        <!-- Login Link -->
+        <p class="text-gray-600 text-center">
+          Already have an account? <a href="login.html" class="text-blue-500 font-semibold hover:underline">Log in</a>
+        </p>
+      </div>
+    </main>
+
+    <!-- Right Side: Desktop Hero -->
+    <aside
+      class="hidden md:flex w-1/2 bg-gradient-to-br from-blue-900 to-blue-600 items-center justify-center p-12">
+      <div class="text-center px-4">
+        <h2 class="text-5xl font-extrabold mb-4 text-white">Join Linksy</h2>
+        <p class="text-white text-xl">
+          Share all your links from one place. Build your online presence effortlessly.
+        </p>
+      </div>
+    </aside>
+
+  </div>
+<script src="./getStarted.js"></script>
+</body>
+</html>
