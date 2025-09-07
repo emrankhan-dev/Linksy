@@ -43,5 +43,5 @@ form.addEventListener('submit', async (e) => {
     // Case 3: New user created → confirmation email sent
     messageEl.style.color = 'green'
     messageEl.textContent = 'Check your inbox to confirm your email. After that, log in.'
-    setTimeout(() => window.location.href = '/login.html', 2000)
+    setTimeout(() => window.location.href = 'https://emrankhan-dev.github.io/Linksy/login.html', 2000)
 })
